@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pago - SuperSports</title>
+  <link rel="stylesheet" href="assets/css/compra.css">
+</head>
+<body>
+  <div class="checkout-container">
+    <h1>💳 Finalizar Compra</h1>
+    <form id="checkout-form">
+      <h2>Datos Personales</h2>
+      <label>Nombre completo:</label>
+      <input type="text" id="nombre" required>
+      <label>Correo electrónico:</label>
+      <input type="email" id="correo" required>
+      <label>Dirección:</label>
+      <input type="text" id="direccion" required>
+      <label>Ciudad:</label>
+      <input type="text" id="ciudad" required>
+      <h2>Datos de Pago</h2>
+      <label>Número de tarjeta:</label>
+      <input type="text" id="tarjeta" maxlength="19" placeholder="XXXX XXXX XXXX XXXX" required>
+      <label>Fecha de expiración:</label>
+      <input type="month" id="expiracion" required>
+      <label>CVV:</label>
+      <input type="text" id="cvv" maxlength="3" required>
+      <label>Tipo de tarjeta:</label>
+      <select id="tipo-tarjeta" required>
+        <option value="">Selecciona...</option>
+        <option value="visa">Visa</option>
+        <option value="mastercard">MasterCard</option>
+        <option value="amex">American Express</option>
+      </select>
+         <div class="form-buttons">
+                <button type="submit" class="btn-pagar">Pagar Ahora</button>
+                <button type="button" id="cancelar-compra" class="btn-cancel">Cancelar Compra</button>
+        </div>
+    </form>
+  </div>
+</body>
+<script src="assets/js/compra.js"></script>
+</html>
