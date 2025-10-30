@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - SuperSports</title>
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/carrito.css"> 
+    <link rel="stylesheet" href="assets/css/busqueda.css">
+    <link rel="stylesheet" href="assets/css/usuario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">⚽</div>
+                    <span class="logo-text">SuperSports</span>
+                </div>
+                <!-- Navigation -->
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                    <a href="categoria.html" class="nav-link">Productos</a>
+                    <a href="index.html#categories" class="nav-link">Categorías</a>
+                    <a href="acercade.html" class="nav-link">Acerca De</a>
+                </nav>
+                <!-- Search -->
+                <div class="search-container">
+                    <input type="search" placeholder="Buscar productos..." class="search-input">
+                    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </div>
+               <!-- Actions -->
+                <div class="header-actions">
+                    <button id="btnUsuario" class="icon-button">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </button>
+                    <button class="icon-button cart-button">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        <span class="cart-badge">0</span>
+                    </button>
+                    <button class="icon-button menu-button">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="contact-main">
+        <h2>Contáctanos</h2>
+        <p>Somos cuatro los creadores de esta página, ¡conéctate con nosotros!</p>
+        <div class="team-container">
+                <div class="team-member">
+                    <h3>Franier Fernandez</h3>
+                    <div class="socials">
+                        <button class="social-btn instagram" onclick="window.open('https://www.instagram.com/frann_3004?igsh=NHFwbGlmeDA1a3Fk', '_blank')">Instagram</button>
+                        <button class="social-btn facebook" onclick="window.open('https://www.facebook.com/share/1DVCtGQax9/', '_blank')">Facebook</button>
+                        <button class="social-btn whatsapp" onclick="window.open('https://wa.me/573216889096', '_blank')">WhatsApp</button>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <h3>Damian Velasquez</h3>
+                    <div class="socials">
+                        <button class="social-btn instagram" onclick="window.open('https://www.instagram.com/dm_jvg?igsh=MWl6Z3FoY25zYzVsNg==', '_blank')">Instagram</button>
+                        <button class="social-btn facebook" onclick="window.open('https://www.facebook.com/profile.php?id=100044230368531', '_blank')">Facebook</button>
+                        <button class="social-btn whatsapp" onclick="window.open('https://wa.me/573215399781', '_blank')">WhatsApp</button>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <h3> Sofia Tovar </h3>
+                    <div class="socials">
+                        <button class="social-btn instagram" onclick="window.open('https://www.instagram.com/sofbelt?igsh=ZGt0ZDR4Zm94ZnA=', '_blank')">Instagram</button>
+                        <button class="social-btn facebook" onclick="window.open('https://www.facebook.com/share/1BYTGRw97m/', '_blank')">Facebook</button>
+                        <button class="social-btn whatsapp" onclick="window.open('https://wa.me/573028346020', '_blank')">WhatsApp</button>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <h3> Sebastian Riudaz </h3>
+                    <div class="socials">
+                        <button class="social-btn instagram" onclick="window.open('https://www.instagram.com/sebas_cr9?igsh=MTF2MG16ZGp1MDJjaA==', '_blank')">Instagram</button>
+                        <button class="social-btn facebook" onclick="window.open('https://www.facebook.com/share/17K9zK6pnq/', '_blank')">Facebook</button>
+                        <button class="social-btn whatsapp" onclick="window.open('https://wa.me/573012407895', '_blank')">WhatsApp</button>
+                    </div>
+                </div>
+            </div>
+        <div class="contact-form-container">
+            <h3>Envíanos un mensaje</h3>
+            <form id="contactForm" class="form-column">
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="usuario@correo.com" required>
+
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" placeholder="Escribe tu mensaje..." rows="5" required></textarea>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            <div id="feedback" class="mensaje-feedback"></div>
+        </div>
+    </main>
+     <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <div class="logo-icon">⚽</div>
+                        <span class="logo-text">SuperSports</span>
+                    </div>
+                    <p class="footer-description">
+                        Tu tienda de deportes online con los mejores productos y precios.
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h4>Comprar</h4>
+                    <ul class="footer-links">
+                        <li><a href="categoria.html">Productos</a></li>
+                        <li><a href="categoria.html?offer=yes">Ofertas</a></li>
+                        <li><a href="#">Novedades</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Ayuda</h4>
+                    <ul class="footer-links">
+                        <li><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        <li><a href="envios.html">Envíos</a></li>
+                        <li><a href="devoluciones.html">Devoluciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="terminos.html">Términos</a></li>
+                        <li><a href="privacidad.html">Privacidad</a></li>
+                        <li><a href="cookies.html">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+     <div class="footer-bottom">
+        <p>© 2025 SuperSports. Todos los derechos reservados.</p>
+            </div>
+        </div>
+ </footer>
+</body>
+    <script src="assets/js/contacto.js"></script>
+    <script src="assets/js/carrito.js"></script>
+    <script src="assets/js/busqueda.js"></script>
+    <script src="assets/js/usuarios.js"></script>
+    <script src="assets/js/categoria.js"></script>
+</html>
